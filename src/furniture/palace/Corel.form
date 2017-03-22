@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="File">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FileActionPerformed"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Customers">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Customers"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CustomersActionPerformed"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Carpenters">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Carpenters"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CarpentersActionPerformed"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Tools">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tools"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ToolsActionPerformed"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="778" max="-2" attributes="0"/>
+              <Component id="MainPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="MainPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="139" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="MainPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="LoginPage">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card10"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Username" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtusername" min="-2" pref="150" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Password" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtpword" min="-2" pref="150" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                      <Component id="FurniturePalaceLimited" min="-2" pref="200" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="Login" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                      <Component id="Register" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="FurniturePalaceLimited" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Username" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtusername" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Password" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtpword" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Login" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Register" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="221" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="FurniturePalaceLimited">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Furniture Palace Limited"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Username">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Username"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Password">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Password"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Login">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Login"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LoginActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtusername">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtusernameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtpword">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtpwordActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Register">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Register"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="RegistrationPage">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="Register"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="FirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Email" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Phone" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Category" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="City" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="DOB" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtLname3" pref="179" max="32767" attributes="0"/>
+                          <Component id="txtDOB10" alignment="0" pref="179" max="32767" attributes="0"/>
+                          <Component id="txtNid8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtCity8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtCat7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtPnumber6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtEmail5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtFname4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="175" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnReg" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLname3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFname4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Email" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEmail5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Phone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPnumber6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Category" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCat7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="City" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCity8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNid8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="DOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDOB10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnReg" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="51" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName"/>
+              </Properties>
+              <Events>
+                <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="FirstNameAncestorAdded"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Email">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email Adress"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Phone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone Number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Category">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Category"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="City">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="National ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="DOB">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date of birth"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReg">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Register"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtLname3">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLname3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFname4">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFname4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtEmail5">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEmail5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPnumber6">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPnumber6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCat7">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCat7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCity8">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCity8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNid8">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNid8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDOB10">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="CustomerDetails">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="CustomerDetails"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnUpdate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnDelete1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="View" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnAdd1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="CustID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cellphone" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="NID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Mail" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="CTY" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LName" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtCat18" alignment="0" pref="167" max="32767" attributes="0"/>
+                                              <Component id="txtCTY17" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtMail16" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtNID15" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtCphone14" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtCustID13" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtLname11" min="-2" pref="167" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="FName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtFname12" min="-2" pref="167" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CustID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCustID13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtLname11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="btnAdd1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtFname12" max="32767" attributes="0"/>
+                                  <Component id="FName" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnDelete1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Cellphone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCphone14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="NID" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNID15" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="View" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Mail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtMail16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="CTY" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCTY17" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Cat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCat18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="69" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CustomerDetails"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="View">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="View Customer Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ViewActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lastname"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="FName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Firstname"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CustID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Cellphone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone Number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="NID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="National ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Mail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CTY">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Cat">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Category"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtLname11">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFname12">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCustID13">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCphone14">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNID15">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNID15ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtMail16">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCTY17">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCat18">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="CarpenterDetails">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="Payslip"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="234" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnDelete2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnUpdate2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnAdd2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Register2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CarpID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Lname" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Fname" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Categ" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Pno" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Pcode" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtCarpID19" alignment="0" pref="148" max="32767" attributes="0"/>
+                                  <Component id="txtLName20" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtFname21" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtCateg22" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtPno23" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtEAddress24" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtPcode25" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnUpdate2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CarpID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCarpID19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="btnAdd2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtLName20" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Lname" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Fname" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFname21" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="btnDelete2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Categ" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCateg22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Register2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Pno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPno23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEAddress24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Pcode" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPcode25" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carpenter Details"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdate2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Register2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Register"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CarpID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carpenter ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Lname">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Fname">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Categ">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Category"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Pno">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone Number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="EAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCarpID19">
+            </Component>
+            <Component class="javax.swing.JLabel" name="Pcode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Postal Code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtLName20">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFname21">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCateg22">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPno23">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtEAddress24">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPcode25">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ListofTools">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="ListTools"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnUpdate3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAdd3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDelete3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ToolID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Toolname" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SupplierID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CatID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UnitPrice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Unitinstock" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UnitonOrder" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtToolID26" alignment="0" pref="137" max="32767" attributes="0"/>
+                                      <Component id="txtToolname27" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtSupplierID28" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCatID29" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtUnitPrice31" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtUnitinStock32" min="-2" pref="145" max="-2" attributes="0"/>
+                                  <Component id="txtUnitonOrder33" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="QuantityperUnit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txtQuantityperUnit30" min="-2" pref="117" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="btnUpdate3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ToolID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtToolID26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnAdd3" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="Toolname" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtToolname27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                              <Component id="btnDelete3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="SupplierID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtSupplierID28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="CatID" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtCatID29" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="QuantityperUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtQuantityperUnit30" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="UnitPrice" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtUnitPrice31" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Unitinstock" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtUnitinStock32" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="UnitonOrder" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtUnitonOrder33" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tools"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdate3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ToolID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tool ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Toolname">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Toolname"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="SupplierID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Supplier ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CatID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Category ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="QuantityperUnit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quantity per Unit"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="UnitPrice">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Unit Price"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Unitinstock">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Unit on Stock"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="UnitonOrder">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Unit on order"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtToolID26">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtToolname27">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtSupplierID28">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCatID29">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtQuantityperUnit30">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtUnitPrice31">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtUnitinStock32">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtUnitonOrder33">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ListofMaterials">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="MaterialsList"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+                              <Component id="MaterialsList" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnAdd6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnUpdate6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnDelete6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MaterialID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MaterialName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SupID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Quantity" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UnitinStock" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtMaterialID46" alignment="0" pref="109" max="32767" attributes="0"/>
+                                  <Component id="txtMaterialName47" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtSupID48" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtQuantity49" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtUnitinStock50" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="77" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="MaterialsList" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnUpdate6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MaterialID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtMaterialID46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="MaterialName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtMaterialName47" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="btnAdd6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="SupID" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtSupID48" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnDelete6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Quantity" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="txtQuantity49" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="UnitinStock" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtUnitinStock50" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="128" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="MaterialsList">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="List of Materials"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdate6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MaterialID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Material ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MaterialName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Material Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="SupID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Supplier ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Quantity">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quantity"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="UnitinStock">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Unit in stock"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtMaterialID46">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtMaterialName47">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaterialName47ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtSupID48">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtQuantity49">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtUnitinStock50">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUnitinStock50ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="CustomerOrdersPage">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="CustomerOrders"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                              <Component id="CustomerOrders" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnDelete4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="btnAdd4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnUpdate4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="OrderID" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CustomerID" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="OrderDate" min="-2" max="-2" attributes="0"/>
+                                          <Component id="EmployeeID" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Status" min="-2" max="-2" attributes="0"/>
+                                          <Component id="RequiredDate" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtOrderID34" alignment="0" pref="103" max="32767" attributes="0"/>
+                                  <Component id="txtCustomerID35" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtEmployeeID36" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtOrderDate37" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtRequiredDate38" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtStatus39" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="CustomerOrders" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnUpdate4" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="OrderID" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtOrderID34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="btnAdd4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtCustomerID35" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CustomerID" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EmployeeID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEmployeeID36" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="btnDelete4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtOrderDate37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="OrderDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtRequiredDate38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="RequiredDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtStatus39" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="69" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="CustomerOrders">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer orders"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdate4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="OrderID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Order ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CustomerID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="EmployeeID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Employee ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="OrderDate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Order Date"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="RequiredDate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Required Date"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Status"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtOrderID34">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtOrderID34ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCustomerID35">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtEmployeeID36">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtOrderDate37">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtRequiredDate38">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtStatus39">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Payments">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="Customerpayments"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                              <Component id="Customerpayments" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnUpdate5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnAdd5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnDelete5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="POrderID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PaymentDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AmountReceived" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Total" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Paymentmode" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CustoID" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtCustoID40" alignment="0" pref="117" max="32767" attributes="0"/>
+                                  <Component id="txtPOrderID41" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtPaymentDate42" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtAmountReceived43" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtTotal44" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtPaymentmode45" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="79" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="Customerpayments" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="btnUpdate5" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CustoID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCustoID40" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnAdd5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="POrderID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtPOrderID41" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnDelete5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PaymentDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtPaymentDate42" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="AmountReceived" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtAmountReceived43" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Total" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTotal44" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Paymentmode" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPaymentmode45" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="Customerpayments">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer payments"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdate5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAdd5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdd5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelete5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CustoID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="POrderID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Order ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PaymentDate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Payment Date"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="AmountReceived">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Amount Received"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Total">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Paymentmode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Payment Mode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCustoID40">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPOrderID41">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPaymentDate42">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPaymentDate42ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtAmountReceived43">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTotal44">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPaymentmode45">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ToolCharges">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="HireToolsandComputeCharges"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                      <Component id="HireToolsandComputeCharges" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="HireToolsandComputeCharges" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="381" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="HireToolsandComputeCharges">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hire Tools and Compute charges"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
